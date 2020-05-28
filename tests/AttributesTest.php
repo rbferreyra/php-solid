@@ -15,6 +15,6 @@ class AttributesTest extends \PHPUnit\Framework\TestCase
 
         $attributes = new Attributes($data);
 
-        $this->assertEquals('class="btn btn-default" data-modal="#login" id="login"', $attributes);
+        $this->assertEquals(' class="btn btn-default" data-modal="#login" id="login"', $attributes);
     }
 }

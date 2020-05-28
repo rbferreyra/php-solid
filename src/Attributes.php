@@ -19,6 +19,6 @@ class Attributes
             $output[] = $key . '="' . $value . '"';
         }
 
-        return implode(' ', $output);
+        return ' ' . implode(' ', $output);
     }
 }

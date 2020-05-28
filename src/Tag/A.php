@@ -28,6 +28,6 @@ class A extends Tag
 
     public function __toString()
     {
-        return '<a href="' . $this->attrs[0] . '">' . $this->attrs[1] . '</a>';
+        return '<a href="' . $this->attrs[0] . '"' . $this->attrsOptional . '>' . $this->attrs[1] . '</a>';
     }
 }
